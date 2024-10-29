@@ -1,0 +1,80 @@
+body {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 224, 228);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-style: italic;
+    color: rgb(229, 118, 118);
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+#buttons {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 2rem;
+    margin: 0 2vh;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#buttonYes {
+    background-color: rgb(108, 213, 131);
+}
+
+#buttonNo {
+    background-color: rgb(231, 93, 93);
+    max-width: 50vh;
+}
+
+#buttonYes,
+#buttonNo {
+    border-radius: 5%;
+}
+
+#buttonYes:hover,
+#buttonNo:hover {
+    transform: scale(1.1);
+}
+
+img.gif {
+    width: 40vh;
+    height: auto;
+}
+
+audio {
+    display: none;
+}
+
+#celebratoryMsg {
+    margin-top: 5vh;
+    font-size: 60px;
+}
